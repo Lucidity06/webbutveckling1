@@ -7,6 +7,9 @@ html {
     height: 100%
 }
 
+a {
+    color: #900000;
+}
 p, a, span, h2, .articlesmini, .articlefeatured {
     text-shadow: 1px 1px 2px #90000080;
 }
@@ -62,15 +65,49 @@ h1, h3, h4, .info {
     margin: 0.5rem;
 }
 
+.articlemini {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: -1rem 0 -1rem 0;
+}
+
+.articlemini p {
+    margin-left: auto;
+}
+
 .articlefeatured {
     display: block;
     background-color: #c0c0c8;
     padding: 0 1rem 0 1rem;
     margin: 0.5rem;
+    text-align: center;
+    width: 125%;
+}
+
+.featuredbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0 0 -0.5rem 0;
+}
+
+.featuredbar a {
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+.articlefeatured img {
+    width: auto;
+    height: 10rem;
+    border: 4px solid lightgrey;
+    float: left;
+    margin-right: 0.25rem;
 }
 
 .articlemini h3, .articlefeatured h3 {
     text-wrap-mode: nowrap;
+    text-align: left;
 }
 
 .navigation {
