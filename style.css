@@ -10,6 +10,9 @@ html {
 a {
     color: #900000;
 }
+p, a, .info {
+    text-align: justify;
+}
 p, a, span, h2, .articlesmini, .articlefeatured {
     text-shadow: 1px 1px 2px #90000080;
 }
@@ -58,6 +61,14 @@ h1, h3, h4, .info {
     margin: 0.5rem;
 }
 
+.contact {
+    display: block;
+    border-style: dashed;
+    border-color: red;
+    padding: 0 1rem 0 1rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
 .articlesmini {
     display: block;
     background-color: #c0c0c8;
@@ -102,8 +113,8 @@ h1, h3, h4, .info {
     height: 10rem;
     border: 4px solid lightgrey;
     float: left;
-    margin-right: 0.25rem;
-    margin-bottom: 0.1rem;
+    margin-right: 0.75rem;
+    margin-bottom: -0.1rem;
 }
 
 .articlemini h3, .articlefeatured h3 {
